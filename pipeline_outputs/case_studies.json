@@ -1,0 +1,1149 @@
+[
+  {
+    "candidate_id": "ep_Coreimage_Engineering_Services_20250421",
+    "service": "Coreimage Engineering Services",
+    "candidate_type": "both",
+    "scope": "2025-04-21 \u2192 2025-04-28",
+    "spike_arm": "volume+mttr",
+    "peak_ratio": 22.77,
+    "total_tickets": 1349.0,
+    "severity": 32.500689832443484,
+    "structured_sufficient": true,
+    "structured_explanation": "Structured fields explain spike: Category='Service Request' (96%, lift=1.8x); Subcategory='Other' (91%, lift=10.0x)",
+    "nlp_ran": true,
+    "n_clusters": 4,
+    "noise_pct": 6.0,
+    "cluster_labels": [
+      {
+        "cluster_id": 3,
+        "cluster_label": "state / reset / progress / state reset / reset progress",
+        "tickets": 919,
+        "pct_of_total": 71.7,
+        "median_MTTR": 865.2
+      },
+      {
+        "cluster_id": 0,
+        "cluster_label": "required compliance / update required / device update / required / compliance",
+        "tickets": 164,
+        "pct_of_total": 12.8,
+        "median_MTTR": 339.4
+      },
+      {
+        "cluster_id": 2,
+        "cluster_label": "waas / waas device / required compliance / update required / device update",
+        "tickets": 80,
+        "pct_of_total": 6.2,
+        "median_MTTR": 265.1
+      },
+      {
+        "cluster_id": 1,
+        "cluster_label": "update required / device update / required / required compliance / compliance",
+        "tickets": 42,
+        "pct_of_total": 3.3,
+        "median_MTTR": 719.9
+      }
+    ],
+    "nlp_verdict": "NLP adds signal",
+    "nlp_detail": "subcat_conc=0.98, mttr_cv=0.531, group_conc=0.329"
+  },
+  {
+    "candidate_id": "ep_Cornerstone_Performance_Management_20250505",
+    "service": "Cornerstone Performance Management",
+    "candidate_type": "episodic",
+    "scope": "2025-05-05 \u2192 2025-06-30",
+    "spike_arm": "volume",
+    "peak_ratio": 4.47,
+    "total_tickets": 982.0,
+    "severity": 33.285234628628,
+    "structured_sufficient": false,
+    "structured_explanation": "No single structured field dominates \u2014 NLP should add signal",
+    "nlp_ran": true,
+    "n_clusters": 5,
+    "noise_pct": 2.8,
+    "cluster_labels": [
+      {
+        "cluster_id": 4,
+        "cluster_label": "issue / information / contact / cornerstone / evaluation",
+        "tickets": 283,
+        "pct_of_total": 32.7,
+        "median_MTTR": 2.2
+      },
+      {
+        "cluster_id": 0,
+        "cluster_label": "performance / performance michigan / medicine performance / medicine / michigan medicine",
+        "tickets": 256,
+        "pct_of_total": 29.6,
+        "median_MTTR": 22.4
+      },
+      {
+        "cluster_id": 1,
+        "cluster_label": "performance cornerstone / performance technical / technical issue / technical / cornerstone performance",
+        "tickets": 185,
+        "pct_of_total": 21.4,
+        "median_MTTR": 3.2
+      },
+      {
+        "cluster_id": 2,
+        "cluster_label": "performance / performance michigan / medicine performance / medicine / michigan medicine",
+        "tickets": 60,
+        "pct_of_total": 6.9,
+        "median_MTTR": 27.8
+      },
+      {
+        "cluster_id": 3,
+        "cluster_label": "cornerstone performance / performance / cornerstone / performance management / management",
+        "tickets": 58,
+        "pct_of_total": 6.7,
+        "median_MTTR": 4.0
+      }
+    ],
+    "nlp_verdict": "NLP adds signal",
+    "nlp_detail": "subcat_conc=0.848, mttr_cv=1.026, group_conc=0.691"
+  },
+  {
+    "candidate_id": "ep_Cornerstone_Performance_Management_20250728",
+    "service": "Cornerstone Performance Management",
+    "candidate_type": "episodic",
+    "scope": "2025-07-28 \u2192 2025-08-04",
+    "spike_arm": "mttr",
+    "peak_ratio": 4.11,
+    "total_tickets": 56.0,
+    "severity": 8.244341068775638,
+    "structured_sufficient": false,
+    "structured_explanation": "No single structured field dominates \u2014 NLP should add signal",
+    "nlp_ran": false,
+    "nlp_verdict": "Insufficient text for NLP",
+    "nlp_detail": "Below severity/impact rank threshold for NLP"
+  },
+  {
+    "candidate_id": "ep_Cybersecurity_Operations_20250818",
+    "service": "Cybersecurity Operations",
+    "candidate_type": "episodic",
+    "scope": "2025-08-18 \u2192 2025-09-15",
+    "spike_arm": "volume",
+    "peak_ratio": 3.39,
+    "total_tickets": 631.0,
+    "severity": 22.716667838897592,
+    "structured_sufficient": false,
+    "structured_explanation": "No single structured field dominates \u2014 NLP should add signal",
+    "nlp_ran": true,
+    "n_clusters": 4,
+    "noise_pct": 2.5,
+    "cluster_labels": [
+      {
+        "cluster_id": 1,
+        "cluster_label": "operations intake / created ia / intake / intake inbound / ia cybersecurity",
+        "tickets": 264,
+        "pct_of_total": 47.1,
+        "median_MTTR": 16.8
+      },
+      {
+        "cluster_id": 3,
+        "cluster_label": "user / activity / ia / cybersecurity / operations",
+        "tickets": 182,
+        "pct_of_total": 32.4,
+        "median_MTTR": 23.2
+      },
+      {
+        "cluster_id": 0,
+        "cluster_label": "mcomm reportphish / reportphish susp / susp / created mcomm / mcomm",
+        "tickets": 57,
+        "pct_of_total": 10.2,
+        "median_MTTR": 1.0
+      },
+      {
+        "cluster_id": 2,
+        "cluster_label": "closed / exabeam / closed reason / reason exabeam / reason",
+        "tickets": 44,
+        "pct_of_total": 7.8,
+        "median_MTTR": 20.9
+      }
+    ],
+    "nlp_verdict": "NLP adds signal",
+    "nlp_detail": "subcat_conc=0.846, mttr_cv=0.645, group_conc=0.906"
+  },
+  {
+    "candidate_id": "ep_Cybersecurity_Operations_20251103",
+    "service": "Cybersecurity Operations",
+    "candidate_type": "episodic",
+    "scope": "2025-11-03 \u2192 2025-11-10",
+    "spike_arm": "mttr",
+    "peak_ratio": 2.3,
+    "total_tickets": 214.0,
+    "severity": 6.453540510683601,
+    "structured_sufficient": false,
+    "structured_explanation": "No single structured field dominates \u2014 NLP should add signal",
+    "nlp_ran": false,
+    "nlp_verdict": "Insufficient text for NLP",
+    "nlp_detail": "Below severity/impact rank threshold for NLP"
+  },
+  {
+    "candidate_id": "ep_Cybersecurity_Operations_20251117",
+    "service": "Cybersecurity Operations",
+    "candidate_type": "episodic",
+    "scope": "2025-11-17 \u2192 2025-11-24",
+    "spike_arm": "volume",
+    "peak_ratio": 1.9,
+    "total_tickets": 263.0,
+    "severity": 5.163325627412582,
+    "structured_sufficient": true,
+    "structured_explanation": "Structured fields explain spike: Category='Inquiry / Help' (85%, lift=1.6x); Subcategory='Inquiry / Help' (85%, lift=1.6x)",
+    "nlp_ran": false,
+    "nlp_verdict": "Insufficient text for NLP",
+    "nlp_detail": "Below severity/impact rank threshold for NLP"
+  },
+  {
+    "candidate_id": "ep_Database_Services_20250303",
+    "service": "Database Services",
+    "candidate_type": "both",
+    "scope": "2025-03-03 \u2192 2025-03-10",
+    "spike_arm": "volume",
+    "peak_ratio": 2.41,
+    "total_tickets": 210.0,
+    "severity": 6.791685366507184,
+    "structured_sufficient": false,
+    "structured_explanation": "No single structured field dominates \u2014 NLP should add signal",
+    "nlp_ran": false,
+    "nlp_verdict": "Insufficient text for NLP",
+    "nlp_detail": "Below severity/impact rank threshold for NLP"
+  },
+  {
+    "candidate_id": "ep_Database_Services_20250929",
+    "service": "Database Services",
+    "candidate_type": "both",
+    "scope": "2025-09-29 \u2192 2025-10-20",
+    "spike_arm": "volume",
+    "peak_ratio": 1.89,
+    "total_tickets": 305.0,
+    "severity": 7.433759524261321,
+    "structured_sufficient": false,
+    "structured_explanation": "No single structured field dominates \u2014 NLP should add signal",
+    "nlp_ran": false,
+    "nlp_verdict": "Insufficient text for NLP",
+    "nlp_detail": "Below severity/impact rank threshold for NLP"
+  },
+  {
+    "candidate_id": "ep_Database_Services_20251110",
+    "service": "Database Services",
+    "candidate_type": "both",
+    "scope": "2025-11-10 \u2192 2025-11-24",
+    "spike_arm": "volume",
+    "peak_ratio": 2.09,
+    "total_tickets": 267.0,
+    "severity": 8.40895782980767,
+    "structured_sufficient": true,
+    "structured_explanation": "Structured fields explain spike: Category='Incident' (73%, lift=1.9x); Subcategory='Other' (70%, lift=2.1x); Assignment group='SQL Server Services' (84%, lift=1.6x)",
+    "nlp_ran": false,
+    "nlp_verdict": "Insufficient text for NLP",
+    "nlp_detail": "Below severity/impact rank threshold for NLP"
+  },
+  {
+    "candidate_id": "ep_Device_Support_Services_20250908",
+    "service": "Device Support Services",
+    "candidate_type": "both",
+    "scope": "2025-09-08 \u2192 2025-09-15",
+    "spike_arm": "mttr",
+    "peak_ratio": 2.48,
+    "total_tickets": 1912.0,
+    "severity": 9.901490736873368,
+    "structured_sufficient": false,
+    "structured_explanation": "No single structured field dominates \u2014 NLP should add signal",
+    "nlp_ran": true,
+    "n_clusters": 3,
+    "noise_pct": 5.1,
+    "cluster_labels": [
+      {
+        "cluster_id": 2,
+        "cluster_label": "device / issue / room / computer / number",
+        "tickets": 1278,
+        "pct_of_total": 83.0,
+        "median_MTTR": 18.8
+      },
+      {
+        "cluster_id": 1,
+        "cluster_label": "printer / print / prt / xerox / paper",
+        "tickets": 120,
+        "pct_of_total": 7.8,
+        "median_MTTR": 5.1
+      },
+      {
+        "cluster_id": 0,
+        "cluster_label": "satisfied / satisfaction survey / satisfaction / survey results / survey",
+        "tickets": 62,
+        "pct_of_total": 4.0,
+        "median_MTTR": 3.3
+      }
+    ],
+    "nlp_verdict": "NLP adds signal",
+    "nlp_detail": "subcat_conc=0.364, mttr_cv=0.936, group_conc=0.237"
+  },
+  {
+    "candidate_id": "ep_Identity_Lifecycle_Management_20250217",
+    "service": "Identity Lifecycle Management",
+    "candidate_type": "episodic",
+    "scope": "2025-02-17 \u2192 2025-02-24",
+    "spike_arm": "mttr",
+    "peak_ratio": 3.65,
+    "total_tickets": 313.0,
+    "severity": 10.739270828482198,
+    "structured_sufficient": false,
+    "structured_explanation": "No single structured field dominates \u2014 NLP should add signal",
+    "nlp_ran": true,
+    "n_clusters": 2,
+    "noise_pct": 0.8,
+    "cluster_labels": [
+      {
+        "cluster_id": 1,
+        "cluster_label": "feb / account request / request / account / mar",
+        "tickets": 87,
+        "pct_of_total": 70.2,
+        "median_MTTR": 7.4
+      },
+      {
+        "cluster_id": 0,
+        "cluster_label": "user / access / password / information / contact",
+        "tickets": 36,
+        "pct_of_total": 29.0,
+        "median_MTTR": 17.8
+      }
+    ],
+    "nlp_verdict": "NLP adds signal",
+    "nlp_detail": "subcat_conc=0.619, mttr_cv=0.58, group_conc=0.917"
+  },
+  {
+    "candidate_id": "ep_Identity_Lifecycle_Management_20250728",
+    "service": "Identity Lifecycle Management",
+    "candidate_type": "episodic",
+    "scope": "2025-07-28 \u2192 2025-08-11",
+    "spike_arm": "volume",
+    "peak_ratio": 6.33,
+    "total_tickets": 2490.0,
+    "severity": 29.44338484818865,
+    "structured_sufficient": false,
+    "structured_explanation": "No single structured field dominates \u2014 NLP should add signal",
+    "nlp_ran": true,
+    "n_clusters": 2,
+    "noise_pct": 0,
+    "cluster_labels": [
+      {
+        "cluster_id": 1,
+        "cluster_label": "account request / aug / request / account / jul",
+        "tickets": 144,
+        "pct_of_total": 70.2,
+        "median_MTTR": 0.6
+      },
+      {
+        "cluster_id": 0,
+        "cluster_label": "user / access / accounts / uniqname / information",
+        "tickets": 61,
+        "pct_of_total": 29.8,
+        "median_MTTR": 18.7
+      }
+    ],
+    "nlp_verdict": "NLP adds signal",
+    "nlp_detail": "subcat_conc=0.652, mttr_cv=1.32, group_conc=0.934"
+  },
+  {
+    "candidate_id": "ep_Identity_Lifecycle_Management_20250915",
+    "service": "Identity Lifecycle Management",
+    "candidate_type": "episodic",
+    "scope": "2025-09-15 \u2192 2025-09-22",
+    "spike_arm": "mttr",
+    "peak_ratio": 2.87,
+    "total_tickets": 560.0,
+    "severity": 9.627826647722728,
+    "structured_sufficient": false,
+    "structured_explanation": "No single structured field dominates \u2014 NLP should add signal",
+    "nlp_ran": true,
+    "n_clusters": 0,
+    "noise_pct": 100.0,
+    "cluster_labels": [],
+    "nlp_verdict": "NLP confirms structured findings",
+    "nlp_detail": "Clusters do not separate on subcategory, MTTR, or assignment group"
+  },
+  {
+    "candidate_id": "ep_Learning_Delivery_Services_20251208",
+    "service": "Learning Delivery Services",
+    "candidate_type": "episodic",
+    "scope": "2025-12-08 \u2192 2025-12-15",
+    "spike_arm": "volume",
+    "peak_ratio": 3.36,
+    "total_tickets": 93.0,
+    "severity": 7.943774796908611,
+    "structured_sufficient": false,
+    "structured_explanation": "No single structured field dominates \u2014 NLP should add signal",
+    "nlp_ran": false,
+    "nlp_verdict": "Insufficient text for NLP",
+    "nlp_detail": "Below severity/impact rank threshold for NLP"
+  },
+  {
+    "candidate_id": "ep_Linux_Hosting_Services_20250203",
+    "service": "Linux Hosting Services",
+    "candidate_type": "episodic",
+    "scope": "2025-02-03 \u2192 2025-02-10",
+    "spike_arm": "mttr",
+    "peak_ratio": 2.81,
+    "total_tickets": 69.0,
+    "severity": 6.332680107141579,
+    "structured_sufficient": false,
+    "structured_explanation": "No single structured field dominates \u2014 NLP should add signal",
+    "nlp_ran": false,
+    "nlp_verdict": "Insufficient text for NLP",
+    "nlp_detail": "Below severity/impact rank threshold for NLP"
+  },
+  {
+    "candidate_id": "ep_Linux_Hosting_Services_20250310",
+    "service": "Linux Hosting Services",
+    "candidate_type": "episodic",
+    "scope": "2025-03-10 \u2192 2025-03-17",
+    "spike_arm": "volume",
+    "peak_ratio": 2.75,
+    "total_tickets": 97.0,
+    "severity": 6.691446508795561,
+    "structured_sufficient": false,
+    "structured_explanation": "No single structured field dominates \u2014 NLP should add signal",
+    "nlp_ran": false,
+    "nlp_verdict": "Insufficient text for NLP",
+    "nlp_detail": "Below severity/impact rank threshold for NLP"
+  },
+  {
+    "candidate_id": "ep_Linux_Hosting_Services_20250825",
+    "service": "Linux Hosting Services",
+    "candidate_type": "episodic",
+    "scope": "2025-08-25 \u2192 2025-09-01",
+    "spike_arm": "mttr",
+    "peak_ratio": 3.36,
+    "total_tickets": 38.0,
+    "severity": 6.4055955129781355,
+    "structured_sufficient": false,
+    "structured_explanation": "No single structured field dominates \u2014 NLP should add signal",
+    "nlp_ran": false,
+    "nlp_verdict": "Insufficient text for NLP",
+    "nlp_detail": "Below severity/impact rank threshold for NLP"
+  },
+  {
+    "candidate_id": "ep_Michart_Pharmacy_(Willow)_20250512",
+    "service": "Michart Pharmacy (Willow)",
+    "candidate_type": "both",
+    "scope": "2025-05-12 \u2192 2025-05-19",
+    "spike_arm": "volume",
+    "peak_ratio": 2.45,
+    "total_tickets": 95.0,
+    "severity": 5.900706039050744,
+    "structured_sufficient": false,
+    "structured_explanation": "No single structured field dominates \u2014 NLP should add signal",
+    "nlp_ran": false,
+    "nlp_verdict": "Insufficient text for NLP",
+    "nlp_detail": "Below severity/impact rank threshold for NLP"
+  },
+  {
+    "candidate_id": "ep_Michart_Pharmacy_(Willow_Ambulatory)_20250512",
+    "service": "Michart Pharmacy (Willow Ambulatory)",
+    "candidate_type": "episodic",
+    "scope": "2025-05-12 \u2192 2025-06-09",
+    "spike_arm": "volume",
+    "peak_ratio": 253.33,
+    "total_tickets": 595.0,
+    "severity": 102.05053470554178,
+    "structured_sufficient": false,
+    "structured_explanation": "No single structured field dominates \u2014 NLP should add signal",
+    "nlp_ran": true,
+    "n_clusters": 2,
+    "noise_pct": 0,
+    "cluster_labels": [
+      {
+        "cluster_id": 0,
+        "cluster_label": "support request / ambulatory support / willow ambulatory / willow / support",
+        "tickets": 113,
+        "pct_of_total": 54.3,
+        "median_MTTR": 26.1
+      },
+      {
+        "cluster_id": 1,
+        "cluster_label": "wam / issue / use / ndc / michart",
+        "tickets": 95,
+        "pct_of_total": 45.7,
+        "median_MTTR": 128.1
+      }
+    ],
+    "nlp_verdict": "NLP adds signal",
+    "nlp_detail": "subcat_conc=0.667, mttr_cv=0.936, group_conc=0.948"
+  },
+  {
+    "candidate_id": "ep_Michart_Security_Services_20250505",
+    "service": "Michart Security Services",
+    "candidate_type": "episodic",
+    "scope": "2025-05-05 \u2192 2025-05-12",
+    "spike_arm": "volume",
+    "peak_ratio": 1.95,
+    "total_tickets": 282.0,
+    "severity": 5.439242004153556,
+    "structured_sufficient": false,
+    "structured_explanation": "No single structured field dominates \u2014 NLP should add signal",
+    "nlp_ran": false,
+    "nlp_verdict": "Insufficient text for NLP",
+    "nlp_detail": "Below severity/impact rank threshold for NLP"
+  },
+  {
+    "candidate_id": "ep_Networking_Support_Services_20250818",
+    "service": "Networking Support Services",
+    "candidate_type": "episodic",
+    "scope": "2025-08-18 \u2192 2025-09-08",
+    "spike_arm": "mttr",
+    "peak_ratio": 2.23,
+    "total_tickets": 127.0,
+    "severity": 7.9394106345348625,
+    "structured_sufficient": false,
+    "structured_explanation": "No single structured field dominates \u2014 NLP should add signal",
+    "nlp_ran": false,
+    "nlp_verdict": "Insufficient text for NLP",
+    "nlp_detail": "Below severity/impact rank threshold for NLP"
+  },
+  {
+    "candidate_id": "ep_Operating_&_Procedure_Rooms_20251110",
+    "service": "Operating & Procedure Rooms",
+    "candidate_type": "episodic",
+    "scope": "2025-11-10 \u2192 2025-11-17",
+    "spike_arm": "mttr",
+    "peak_ratio": 2.79,
+    "total_tickets": 68.0,
+    "severity": 6.267600181819258,
+    "structured_sufficient": false,
+    "structured_explanation": "No single structured field dominates \u2014 NLP should add signal",
+    "nlp_ran": false,
+    "nlp_verdict": "Insufficient text for NLP",
+    "nlp_detail": "Below severity/impact rank threshold for NLP"
+  },
+  {
+    "candidate_id": "ep_Outlook_For_The_Web_(Owa)_20250303",
+    "service": "Outlook For The Web (Owa)",
+    "candidate_type": "episodic",
+    "scope": "2025-03-03 \u2192 2025-03-10",
+    "spike_arm": "volume",
+    "peak_ratio": 17.38,
+    "total_tickets": 359.0,
+    "severity": 24.246959000652335,
+    "structured_sufficient": true,
+    "structured_explanation": "Structured fields explain spike: Category='Incident' (93%, lift=5.1x); Subcategory='Data Incorrect' (92%, lift=17.1x); Assignment group='IA Program & Admin' (90%, lift=22.9x)",
+    "nlp_ran": true,
+    "n_clusters": 2,
+    "noise_pct": 0,
+    "cluster_labels": [
+      {
+        "cluster_id": 0,
+        "cluster_label": "paige housner / housner / assignment group / assignment / desk assign",
+        "tickets": 242,
+        "pct_of_total": 71.2,
+        "median_MTTR": 149.1
+      },
+      {
+        "cluster_id": 1,
+        "cluster_label": "retention / emails / deleted / exception / missing",
+        "tickets": 98,
+        "pct_of_total": 28.8,
+        "median_MTTR": 169.9
+      }
+    ],
+    "nlp_verdict": "NLP adds signal",
+    "nlp_detail": "subcat_conc=0.852, mttr_cv=0.092, group_conc=0.831"
+  },
+  {
+    "candidate_id": "ep_Outlook_For_The_Web_(Owa)_20251201",
+    "service": "Outlook For The Web (Owa)",
+    "candidate_type": "episodic",
+    "scope": "2025-12-01 \u2192 2025-12-08",
+    "spike_arm": "mttr",
+    "peak_ratio": 6.13,
+    "total_tickets": 35.0,
+    "severity": 9.374080870240727,
+    "structured_sufficient": false,
+    "structured_explanation": "No single structured field dominates \u2014 NLP should add signal",
+    "nlp_ran": false,
+    "nlp_verdict": "Insufficient text for NLP",
+    "nlp_detail": "Below ticket floor (33 usable < 100; 2 duplicates removed)"
+  },
+  {
+    "candidate_id": "ep_Reporting_20250623",
+    "service": "Reporting",
+    "candidate_type": "both",
+    "scope": "2025-06-23 \u2192 2025-06-30",
+    "spike_arm": "volume",
+    "peak_ratio": 3.38,
+    "total_tickets": 103.0,
+    "severity": 8.160302775659073,
+    "structured_sufficient": true,
+    "structured_explanation": "Structured fields explain spike: Subcategory='Other' (78%, lift=3.0x)",
+    "nlp_ran": false,
+    "nlp_verdict": "Insufficient text for NLP",
+    "nlp_detail": "Below severity/impact rank threshold for NLP"
+  },
+  {
+    "candidate_id": "ep_Service_Management_20250512",
+    "service": "Service Management",
+    "candidate_type": "episodic",
+    "scope": "2025-05-12 \u2192 2025-05-26",
+    "spike_arm": "mttr",
+    "peak_ratio": 2.46,
+    "total_tickets": 89.0,
+    "severity": 8.264261356716279,
+    "structured_sufficient": false,
+    "structured_explanation": "No single structured field dominates \u2014 NLP should add signal",
+    "nlp_ran": false,
+    "nlp_verdict": "Insufficient text for NLP",
+    "nlp_detail": "Below severity/impact rank threshold for NLP"
+  },
+  {
+    "candidate_id": "ep_Storage_Services_20250602",
+    "service": "Storage Services",
+    "candidate_type": "episodic",
+    "scope": "2025-06-02 \u2192 2025-06-09",
+    "spike_arm": "mttr",
+    "peak_ratio": 3.46,
+    "total_tickets": 53.0,
+    "severity": 7.143361090064913,
+    "structured_sufficient": false,
+    "structured_explanation": "No single structured field dominates \u2014 NLP should add signal",
+    "nlp_ran": false,
+    "nlp_verdict": "Insufficient text for NLP",
+    "nlp_detail": "Below severity/impact rank threshold for NLP"
+  },
+  {
+    "candidate_id": "ep_Storage_Services_20251124",
+    "service": "Storage Services",
+    "candidate_type": "episodic",
+    "scope": "2025-11-24 \u2192 2025-12-01",
+    "spike_arm": "mttr",
+    "peak_ratio": 3.7,
+    "total_tickets": 56.0,
+    "severity": 7.631361438941528,
+    "structured_sufficient": false,
+    "structured_explanation": "No single structured field dominates \u2014 NLP should add signal",
+    "nlp_ran": false,
+    "nlp_verdict": "Insufficient text for NLP",
+    "nlp_detail": "Below severity/impact rank threshold for NLP"
+  },
+  {
+    "candidate_id": "ep_Voice_Communication_Services_20251110",
+    "service": "Voice Communication Services",
+    "candidate_type": "episodic",
+    "scope": "2025-11-10 \u2192 2025-11-17",
+    "spike_arm": "mttr",
+    "peak_ratio": 2.93,
+    "total_tickets": 149.0,
+    "severity": 7.77099760792022,
+    "structured_sufficient": false,
+    "structured_explanation": "No single structured field dominates \u2014 NLP should add signal",
+    "nlp_ran": false,
+    "nlp_verdict": "Insufficient text for NLP",
+    "nlp_detail": "Below severity/impact rank threshold for NLP"
+  },
+  {
+    "candidate_id": "st_Coreimage_Engineering_Services_Other",
+    "service": "Coreimage Engineering Services",
+    "candidate_type": "both",
+    "scope": "subcategory 'Other'",
+    "volume": 1425.0,
+    "median_MTTR": 621.3052777777777,
+    "impact_score": 885360.0208333333,
+    "structured_sufficient": false,
+    "structured_explanation": "Subcategory 'Other' is generic \u2014 NLP needed to resolve what's inside",
+    "nlp_ran": true,
+    "n_clusters": 3,
+    "noise_pct": 1.6,
+    "cluster_labels": [
+      {
+        "cluster_id": 2,
+        "cluster_label": "ticket / state / reset / progress / state reset",
+        "tickets": 1012,
+        "pct_of_total": 75.2,
+        "median_MTTR": 816.4
+      },
+      {
+        "cluster_id": 0,
+        "cluster_label": "update required / required compliance / device update / required / compliance",
+        "tickets": 229,
+        "pct_of_total": 17.0,
+        "median_MTTR": 480.0
+      },
+      {
+        "cluster_id": 1,
+        "cluster_label": "waas / waas device / required compliance / update required / device update",
+        "tickets": 84,
+        "pct_of_total": 6.2,
+        "median_MTTR": 264.8
+      }
+    ],
+    "nlp_verdict": "NLP adds signal",
+    "nlp_detail": "subcat_conc=1.0, mttr_cv=0.534, group_conc=0.266"
+  },
+  {
+    "candidate_id": "st_Release_Of_Information_Other",
+    "service": "Release Of Information",
+    "candidate_type": "persistent",
+    "scope": "subcategory 'Other'",
+    "volume": 2188.0,
+    "median_MTTR": 142.58388888888888,
+    "impact_score": 311973.54888888885,
+    "structured_sufficient": false,
+    "structured_explanation": "Subcategory 'Other' is generic \u2014 NLP needed to resolve what's inside",
+    "nlp_ran": true,
+    "n_clusters": 3,
+    "noise_pct": 39.2,
+    "cluster_labels": [
+      {
+        "cluster_id": 2,
+        "cluster_label": "cycle / rev / rev cycle / letter yes / fax",
+        "tickets": 151,
+        "pct_of_total": 39.4,
+        "median_MTTR": 164.5
+      },
+      {
+        "cluster_id": 0,
+        "cluster_label": "dropbox / link / secure / transmitted dropbox / dropbox secure",
+        "tickets": 61,
+        "pct_of_total": 15.9,
+        "median_MTTR": 97.6
+      },
+      {
+        "cluster_id": 1,
+        "cluster_label": "wps / wps portal / adr / portal / confirmation",
+        "tickets": 21,
+        "pct_of_total": 5.5,
+        "median_MTTR": 248.8
+      }
+    ],
+    "nlp_verdict": "NLP adds signal",
+    "nlp_detail": "subcat_conc=1.0, mttr_cv=0.445, group_conc=0.993"
+  },
+  {
+    "candidate_id": "st_Ambulatory_Care_Move/Change/Add",
+    "service": "Ambulatory Care",
+    "candidate_type": "persistent",
+    "scope": "subcategory 'Move/Change/Add'",
+    "volume": 1719.0,
+    "median_MTTR": 161.7325,
+    "impact_score": 278018.1675,
+    "structured_sufficient": false,
+    "structured_explanation": "Subcategory 'Move/Change/Add' is generic \u2014 NLP needed to resolve what's inside",
+    "nlp_ran": true,
+    "n_clusters": 3,
+    "noise_pct": 3.8,
+    "cluster_labels": [
+      {
+        "cluster_id": 1,
+        "cluster_label": "pool / new / information / update / customer",
+        "tickets": 1160,
+        "pct_of_total": 87.3,
+        "median_MTTR": 170.2
+      },
+      {
+        "cluster_id": 2,
+        "cluster_label": "extremely / satisfied / extremely satisfied / survey / satisfaction survey",
+        "tickets": 79,
+        "pct_of_total": 5.9,
+        "median_MTTR": 166.8
+      },
+      {
+        "cluster_id": 0,
+        "cluster_label": "michart / incident created / request activity / michart prd / created michart",
+        "tickets": 40,
+        "pct_of_total": 3.0,
+        "median_MTTR": 93.6
+      }
+    ],
+    "nlp_verdict": "NLP adds signal",
+    "nlp_detail": "subcat_conc=1.0, mttr_cv=0.302, group_conc=0.93"
+  },
+  {
+    "candidate_id": "st_Device_Support_Services_Other",
+    "service": "Device Support Services",
+    "candidate_type": "both",
+    "scope": "subcategory 'Other'",
+    "volume": 7478.0,
+    "median_MTTR": 23.90416666666667,
+    "impact_score": 178755.35833333334,
+    "structured_sufficient": false,
+    "structured_explanation": "Subcategory 'Other' is generic \u2014 NLP needed to resolve what's inside",
+    "nlp_ran": true,
+    "n_clusters": 3,
+    "noise_pct": 6.2,
+    "cluster_labels": [
+      {
+        "cluster_id": 2,
+        "cluster_label": "device / issue / room / contact / information",
+        "tickets": 1566,
+        "pct_of_total": 78.3,
+        "median_MTTR": 23.9
+      },
+      {
+        "cluster_id": 1,
+        "cluster_label": "printer / prt / printing / print / label",
+        "tickets": 236,
+        "pct_of_total": 11.8,
+        "median_MTTR": 21.0
+      },
+      {
+        "cluster_id": 0,
+        "cluster_label": "satisfied / satisfaction / survey results / satisfaction survey / results",
+        "tickets": 75,
+        "pct_of_total": 3.8,
+        "median_MTTR": 3.7
+      }
+    ],
+    "nlp_verdict": "NLP adds signal",
+    "nlp_detail": "subcat_conc=1.0, mttr_cv=0.672, group_conc=0.195"
+  },
+  {
+    "candidate_id": "st_Continuing_Medical_Education_Inquiry_/_Help",
+    "service": "Continuing Medical Education",
+    "candidate_type": "persistent",
+    "scope": "subcategory 'Inquiry / Help'",
+    "volume": 1861.0,
+    "median_MTTR": 77.74,
+    "impact_score": 144674.13999999998,
+    "structured_sufficient": false,
+    "structured_explanation": "Subcategory 'Inquiry / Help' is generic \u2014 NLP needed to resolve what's inside",
+    "nlp_ran": true,
+    "n_clusters": 4,
+    "noise_pct": 19.3,
+    "cluster_labels": [
+      {
+        "cluster_id": 3,
+        "cluster_label": "customer / activity / applicable / page / preset",
+        "tickets": 668,
+        "pct_of_total": 47.8,
+        "median_MTTR": 122.9
+      },
+      {
+        "cluster_id": 1,
+        "cluster_label": "inbound action / micme survey / created micme / survey inbound / inbound",
+        "tickets": 364,
+        "pct_of_total": 26.0,
+        "median_MTTR": 53.9
+      },
+      {
+        "cluster_id": 0,
+        "cluster_label": "satisfaction survey / satisfaction / survey results / results / satisfied",
+        "tickets": 52,
+        "pct_of_total": 3.7,
+        "median_MTTR": 66.5
+      },
+      {
+        "cluster_id": 2,
+        "cluster_label": "requests / add remove / activity coordinators / coordinators / remove",
+        "tickets": 44,
+        "pct_of_total": 3.1,
+        "median_MTTR": 21.6
+      }
+    ],
+    "nlp_verdict": "NLP adds signal",
+    "nlp_detail": "subcat_conc=1.0, mttr_cv=0.638, group_conc=0.631"
+  },
+  {
+    "candidate_id": "st_Device_Support_Services_Move/Change/Add",
+    "service": "Device Support Services",
+    "candidate_type": "both",
+    "scope": "subcategory 'Move/Change/Add'",
+    "volume": 7701.0,
+    "median_MTTR": 16.30388888888889,
+    "impact_score": 125556.24833333334,
+    "structured_sufficient": false,
+    "structured_explanation": "Subcategory 'Move/Change/Add' is generic \u2014 NLP needed to resolve what's inside",
+    "nlp_ran": true,
+    "n_clusters": 4,
+    "noise_pct": 7.0,
+    "cluster_labels": [
+      {
+        "cluster_id": 3,
+        "cluster_label": "device / contact / update / issue / laptop",
+        "tickets": 1515,
+        "pct_of_total": 75.8,
+        "median_MTTR": 20.0
+      },
+      {
+        "cluster_id": 0,
+        "cluster_label": "windows / drive insufficient / space monthly / insufficient space / monthly",
+        "tickets": 150,
+        "pct_of_total": 7.5,
+        "median_MTTR": 1.4
+      },
+      {
+        "cluster_id": 2,
+        "cluster_label": "free / cleared / profiles / space / removed",
+        "tickets": 110,
+        "pct_of_total": 5.5,
+        "median_MTTR": 22.1
+      },
+      {
+        "cluster_id": 1,
+        "cluster_label": "survey / survey results / satisfaction survey / satisfaction / results",
+        "tickets": 85,
+        "pct_of_total": 4.2,
+        "median_MTTR": 4.6
+      }
+    ],
+    "nlp_verdict": "NLP adds signal",
+    "nlp_detail": "subcat_conc=1.0, mttr_cv=0.88, group_conc=0.288"
+  },
+  {
+    "candidate_id": "st_Pharmacy_Management_Services_Move/Change/Add",
+    "service": "Pharmacy Management Services",
+    "candidate_type": "persistent",
+    "scope": "subcategory 'Move/Change/Add'",
+    "volume": 500.0,
+    "median_MTTR": 241.5598611111111,
+    "impact_score": 120779.93055555555,
+    "structured_sufficient": false,
+    "structured_explanation": "Subcategory 'Move/Change/Add' is generic \u2014 NLP needed to resolve what's inside",
+    "nlp_ran": true,
+    "n_clusters": 6,
+    "noise_pct": 18.4,
+    "cluster_labels": [
+      {
+        "cluster_id": 3,
+        "cluster_label": "add / order / pharmacy / shortage / update",
+        "tickets": 125,
+        "pct_of_total": 34.2,
+        "median_MTTR": 190.7
+      },
+      {
+        "cluster_id": 1,
+        "cluster_label": "erx build / build / build request / new erx / new",
+        "tickets": 46,
+        "pct_of_total": 12.6,
+        "median_MTTR": 277.1
+      },
+      {
+        "cluster_id": 5,
+        "cluster_label": "change request / change / erx change / erx / request",
+        "tickets": 37,
+        "pct_of_total": 10.1,
+        "median_MTTR": 165.1
+      },
+      {
+        "cluster_id": 2,
+        "cluster_label": "michart / incident / created / environment / activity",
+        "tickets": 35,
+        "pct_of_total": 9.6,
+        "median_MTTR": 165.6
+      },
+      {
+        "cluster_id": 0,
+        "cluster_label": "satisfied / survey / survey results / satisfaction / satisfaction survey",
+        "tickets": 29,
+        "pct_of_total": 7.9,
+        "median_MTTR": 195.9
+      },
+      {
+        "cluster_id": 4,
+        "cluster_label": "prl build / prl / erx prl / build / build request",
+        "tickets": 26,
+        "pct_of_total": 7.1,
+        "median_MTTR": 579.2
+      }
+    ],
+    "nlp_verdict": "NLP adds signal",
+    "nlp_detail": "subcat_conc=1.0, mttr_cv=0.612, group_conc=0.764"
+  },
+  {
+    "candidate_id": "st_Device_Support_Services_System_Degraded",
+    "service": "Device Support Services",
+    "candidate_type": "both",
+    "scope": "subcategory 'System Degraded'",
+    "volume": 15214.0,
+    "median_MTTR": 7.619861111111112,
+    "impact_score": 115928.56694444445,
+    "structured_sufficient": true,
+    "structured_explanation": "Subcategory 'System Degraded' is specific \u2014 structured fields sufficient",
+    "nlp_ran": true,
+    "n_clusters": 3,
+    "noise_pct": 4.8,
+    "cluster_labels": [
+      {
+        "cluster_id": 2,
+        "cluster_label": "device / issue / contact / room / support",
+        "tickets": 1642,
+        "pct_of_total": 82.1,
+        "median_MTTR": 23.3
+      },
+      {
+        "cluster_id": 1,
+        "cluster_label": "printer / prt / print / printing / device prt",
+        "tickets": 135,
+        "pct_of_total": 6.8,
+        "median_MTTR": 25.1
+      },
+      {
+        "cluster_id": 0,
+        "cluster_label": "bcma / scanner / barcode / medication / support barcode",
+        "tickets": 127,
+        "pct_of_total": 6.4,
+        "median_MTTR": 1.2
+      }
+    ],
+    "nlp_verdict": "NLP adds signal",
+    "nlp_detail": "subcat_conc=1.0, mttr_cv=0.803, group_conc=0.35"
+  },
+  {
+    "candidate_id": "st_Reporting_Inquiry_/_Help",
+    "service": "Reporting",
+    "candidate_type": "both",
+    "scope": "subcategory 'Inquiry / Help'",
+    "volume": 336.0,
+    "median_MTTR": 291.3216666666667,
+    "impact_score": 97884.08000000002,
+    "structured_sufficient": false,
+    "structured_explanation": "Subcategory 'Inquiry / Help' is generic \u2014 NLP needed to resolve what's inside",
+    "nlp_ran": true,
+    "n_clusters": 2,
+    "noise_pct": 49.0,
+    "cluster_labels": [
+      {
+        "cluster_id": 1,
+        "cluster_label": "report / team / request / michart / reporting",
+        "tickets": 128,
+        "pct_of_total": 42.7,
+        "median_MTTR": 284.0
+      },
+      {
+        "cluster_id": 0,
+        "cluster_label": "michart / report / michart report / reporting / michart reporting",
+        "tickets": 25,
+        "pct_of_total": 8.3,
+        "median_MTTR": 45.2
+      }
+    ],
+    "nlp_verdict": "NLP adds signal",
+    "nlp_detail": "subcat_conc=1.0, mttr_cv=1.026, group_conc=0.328"
+  },
+  {
+    "candidate_id": "st_Database_Services_Move/Change/Add",
+    "service": "Database Services",
+    "candidate_type": "both",
+    "scope": "subcategory 'Move/Change/Add'",
+    "volume": 850.0,
+    "median_MTTR": 112.80847222222222,
+    "impact_score": 95887.20138888889,
+    "structured_sufficient": false,
+    "structured_explanation": "Subcategory 'Move/Change/Add' is generic \u2014 NLP needed to resolve what's inside",
+    "nlp_ran": true,
+    "n_clusters": 2,
+    "noise_pct": 0,
+    "cluster_labels": [
+      {
+        "cluster_id": 1,
+        "cluster_label": "created / similar / created similar / incident / similar incident",
+        "tickets": 368,
+        "pct_of_total": 91.1,
+        "median_MTTR": 95.1
+      },
+      {
+        "cluster_id": 0,
+        "cluster_label": "approved / neema mathew / mathew / neema / mathew approved",
+        "tickets": 36,
+        "pct_of_total": 8.9,
+        "median_MTTR": 63.8
+      }
+    ],
+    "nlp_verdict": "NLP adds signal",
+    "nlp_detail": "subcat_conc=1.0, mttr_cv=0.278, group_conc=0.672"
+  },
+  {
+    "candidate_id": "st_Hospital_Billing_Services_Move/Change/Add",
+    "service": "Hospital Billing Services",
+    "candidate_type": "persistent",
+    "scope": "subcategory 'Move/Change/Add'",
+    "volume": 286.0,
+    "median_MTTR": 312.1093055555556,
+    "impact_score": 89263.2613888889,
+    "structured_sufficient": false,
+    "structured_explanation": "Subcategory 'Move/Change/Add' is generic \u2014 NLP needed to resolve what's inside",
+    "nlp_ran": false,
+    "nlp_verdict": "Insufficient text for NLP",
+    "nlp_detail": "Below severity/impact rank threshold for NLP"
+  },
+  {
+    "candidate_id": "st_Cloud_Kubernetes_Container_Hosting_Move/Change/Add",
+    "service": "Cloud Kubernetes Container Hosting",
+    "candidate_type": "persistent",
+    "scope": "subcategory 'Move/Change/Add'",
+    "volume": 294.0,
+    "median_MTTR": 284.1783333333333,
+    "impact_score": 83548.43,
+    "structured_sufficient": false,
+    "structured_explanation": "Subcategory 'Move/Change/Add' is generic \u2014 NLP needed to resolve what's inside",
+    "nlp_ran": false,
+    "nlp_verdict": "Insufficient text for NLP",
+    "nlp_detail": "Below severity/impact rank threshold for NLP"
+  },
+  {
+    "candidate_id": "st_Ambulatory_Care_Enhancement",
+    "service": "Ambulatory Care",
+    "candidate_type": "persistent",
+    "scope": "subcategory 'Enhancement'",
+    "volume": 231.0,
+    "median_MTTR": 359.39166666666665,
+    "impact_score": 83019.47499999999,
+    "structured_sufficient": false,
+    "structured_explanation": "Subcategory 'Enhancement' is generic \u2014 NLP needed to resolve what's inside",
+    "nlp_ran": false,
+    "nlp_verdict": "Insufficient text for NLP",
+    "nlp_detail": "Below severity/impact rank threshold for NLP"
+  },
+  {
+    "candidate_id": "st_Michart_Pharmacy_(Willow)_Move/Change/Add",
+    "service": "Michart Pharmacy (Willow)",
+    "candidate_type": "both",
+    "scope": "subcategory 'Move/Change/Add'",
+    "volume": 390.0,
+    "median_MTTR": 190.1036111111111,
+    "impact_score": 74140.40833333333,
+    "structured_sufficient": false,
+    "structured_explanation": "Subcategory 'Move/Change/Add' is generic \u2014 NLP needed to resolve what's inside",
+    "nlp_ran": false,
+    "nlp_verdict": "Insufficient text for NLP",
+    "nlp_detail": "Below severity/impact rank threshold for NLP"
+  },
+  {
+    "candidate_id": "st_Reporting_Move/Change/Add",
+    "service": "Reporting",
+    "candidate_type": "both",
+    "scope": "subcategory 'Move/Change/Add'",
+    "volume": 381.0,
+    "median_MTTR": 193.2475,
+    "impact_score": 73627.2975,
+    "structured_sufficient": false,
+    "structured_explanation": "Subcategory 'Move/Change/Add' is generic \u2014 NLP needed to resolve what's inside",
+    "nlp_ran": false,
+    "nlp_verdict": "Insufficient text for NLP",
+    "nlp_detail": "Below severity/impact rank threshold for NLP"
+  },
+  {
+    "candidate_id": "st_Academic_It_Classroom_Technologies_Move/Change/Add",
+    "service": "Academic It Classroom Technologies",
+    "candidate_type": "persistent",
+    "scope": "subcategory 'Move/Change/Add'",
+    "volume": 230.0,
+    "median_MTTR": 313.3572222222222,
+    "impact_score": 72072.16111111111,
+    "structured_sufficient": false,
+    "structured_explanation": "Subcategory 'Move/Change/Add' is generic \u2014 NLP needed to resolve what's inside",
+    "nlp_ran": false,
+    "nlp_verdict": "Insufficient text for NLP",
+    "nlp_detail": "Below severity/impact rank threshold for NLP"
+  },
+  {
+    "candidate_id": "st_Clinical_Documentation_(Clindoc)_Move/Change/Add",
+    "service": "Clinical Documentation (Clindoc)",
+    "candidate_type": "persistent",
+    "scope": "subcategory 'Move/Change/Add'",
+    "volume": 240.0,
+    "median_MTTR": 282.79875,
+    "impact_score": 67871.7,
+    "structured_sufficient": false,
+    "structured_explanation": "Subcategory 'Move/Change/Add' is generic \u2014 NLP needed to resolve what's inside",
+    "nlp_ran": false,
+    "nlp_verdict": "Insufficient text for NLP",
+    "nlp_detail": "Below severity/impact rank threshold for NLP"
+  }
+]

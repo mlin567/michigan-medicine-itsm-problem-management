@@ -1,0 +1,47 @@
+candidate_id,structured_sufficient,explanation,n_spike,n_baseline,n_tickets
+ep_Coreimage_Engineering_Services_20250421,True,"Structured fields explain spike: Category='Service Request' (96%, lift=1.8x); Subcategory='Other' (91%, lift=10.0x)",1349.0,2895.0,
+ep_Cornerstone_Performance_Management_20250505,False,No single structured field dominates — NLP should add signal,982.0,965.0,
+ep_Cornerstone_Performance_Management_20250728,False,No single structured field dominates — NLP should add signal,56.0,965.0,
+ep_Cybersecurity_Operations_20250818,False,No single structured field dominates — NLP should add signal,631.0,2042.0,
+ep_Cybersecurity_Operations_20251103,False,No single structured field dominates — NLP should add signal,214.0,2042.0,
+ep_Cybersecurity_Operations_20251117,True,"Structured fields explain spike: Category='Inquiry / Help' (85%, lift=1.6x); Subcategory='Inquiry / Help' (85%, lift=1.6x)",263.0,2042.0,
+ep_Database_Services_20250303,False,No single structured field dominates — NLP should add signal,210.0,2158.0,
+ep_Database_Services_20250929,False,No single structured field dominates — NLP should add signal,305.0,2158.0,
+ep_Database_Services_20251110,True,"Structured fields explain spike: Category='Incident' (73%, lift=1.9x); Subcategory='Other' (70%, lift=2.1x); Assignment group='SQL Server Services' (84%, lift=1.6x)",267.0,2158.0,
+ep_Device_Support_Services_20250908,False,No single structured field dominates — NLP should add signal,1912.0,49637.0,
+ep_Identity_Lifecycle_Management_20250217,False,No single structured field dominates — NLP should add signal,313.0,8204.0,
+ep_Identity_Lifecycle_Management_20250728,False,No single structured field dominates — NLP should add signal,2490.0,8204.0,
+ep_Identity_Lifecycle_Management_20250915,False,No single structured field dominates — NLP should add signal,560.0,8204.0,
+ep_Learning_Delivery_Services_20251208,False,No single structured field dominates — NLP should add signal,93.0,1178.0,
+ep_Linux_Hosting_Services_20250203,False,No single structured field dominates — NLP should add signal,69.0,1184.0,
+ep_Linux_Hosting_Services_20250310,False,No single structured field dominates — NLP should add signal,97.0,1184.0,
+ep_Linux_Hosting_Services_20250825,False,No single structured field dominates — NLP should add signal,38.0,1184.0,
+ep_Michart_Pharmacy_(Willow)_20250512,False,No single structured field dominates — NLP should add signal,95.0,1367.0,
+ep_Michart_Pharmacy_(Willow_Ambulatory)_20250512,False,No single structured field dominates — NLP should add signal,595.0,720.0,
+ep_Michart_Security_Services_20250505,False,No single structured field dominates — NLP should add signal,282.0,3339.0,
+ep_Networking_Support_Services_20250818,False,No single structured field dominates — NLP should add signal,127.0,1109.0,
+ep_Operating_&_Procedure_Rooms_20251110,False,No single structured field dominates — NLP should add signal,68.0,1320.0,
+ep_Outlook_For_The_Web_(Owa)_20250303,True,"Structured fields explain spike: Category='Incident' (93%, lift=5.1x); Subcategory='Data Incorrect' (92%, lift=17.1x); Assignment group='IA Program & Admin' (90%, lift=22.9x)",359.0,634.0,
+ep_Outlook_For_The_Web_(Owa)_20251201,False,No single structured field dominates — NLP should add signal,35.0,634.0,
+ep_Reporting_20250623,True,"Structured fields explain spike: Subcategory='Other' (78%, lift=3.0x)",103.0,1150.0,
+ep_Service_Management_20250512,False,No single structured field dominates — NLP should add signal,89.0,1336.0,
+ep_Storage_Services_20250602,False,No single structured field dominates — NLP should add signal,53.0,1316.0,
+ep_Storage_Services_20251124,False,No single structured field dominates — NLP should add signal,56.0,1316.0,
+ep_Voice_Communication_Services_20251110,False,No single structured field dominates — NLP should add signal,149.0,3127.0,
+st_Coreimage_Engineering_Services_Other,False,Subcategory 'Other' is generic — NLP needed to resolve what's inside,,,1490.0
+st_Release_Of_Information_Other,False,Subcategory 'Other' is generic — NLP needed to resolve what's inside,,,2197.0
+st_Ambulatory_Care_Move/Change/Add,False,Subcategory 'Move/Change/Add' is generic — NLP needed to resolve what's inside,,,1800.0
+st_Device_Support_Services_Other,False,Subcategory 'Other' is generic — NLP needed to resolve what's inside,,,7682.0
+st_Continuing_Medical_Education_Inquiry_/_Help,False,Subcategory 'Inquiry / Help' is generic — NLP needed to resolve what's inside,,,1897.0
+st_Device_Support_Services_Move/Change/Add,False,Subcategory 'Move/Change/Add' is generic — NLP needed to resolve what's inside,,,7942.0
+st_Pharmacy_Management_Services_Move/Change/Add,False,Subcategory 'Move/Change/Add' is generic — NLP needed to resolve what's inside,,,516.0
+st_Device_Support_Services_System_Degraded,True,Subcategory 'System Degraded' is specific — structured fields sufficient,,,15483.0
+st_Reporting_Inquiry_/_Help,False,Subcategory 'Inquiry / Help' is generic — NLP needed to resolve what's inside,,,377.0
+st_Database_Services_Move/Change/Add,False,Subcategory 'Move/Change/Add' is generic — NLP needed to resolve what's inside,,,863.0
+st_Hospital_Billing_Services_Move/Change/Add,False,Subcategory 'Move/Change/Add' is generic — NLP needed to resolve what's inside,,,314.0
+st_Cloud_Kubernetes_Container_Hosting_Move/Change/Add,False,Subcategory 'Move/Change/Add' is generic — NLP needed to resolve what's inside,,,306.0
+st_Ambulatory_Care_Enhancement,False,Subcategory 'Enhancement' is generic — NLP needed to resolve what's inside,,,265.0
+st_Michart_Pharmacy_(Willow)_Move/Change/Add,False,Subcategory 'Move/Change/Add' is generic — NLP needed to resolve what's inside,,,417.0
+st_Reporting_Move/Change/Add,False,Subcategory 'Move/Change/Add' is generic — NLP needed to resolve what's inside,,,420.0
+st_Academic_It_Classroom_Technologies_Move/Change/Add,False,Subcategory 'Move/Change/Add' is generic — NLP needed to resolve what's inside,,,276.0
+st_Clinical_Documentation_(Clindoc)_Move/Change/Add,False,Subcategory 'Move/Change/Add' is generic — NLP needed to resolve what's inside,,,254.0

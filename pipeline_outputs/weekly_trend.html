@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "layer": [{"mark": {"type": "line", "color": "#BBBBBB", "opacity": 0.6, "strokeWidth": 1}, "encoding": {"x": {"axis": {"labelAngle": 0, "tickCount": 12}, "field": "week", "title": "Week", "type": "temporal"}, "y": {"field": "ticket_count", "title": "Incidents created", "type": "quantitative"}}}, {"mark": {"type": "line", "color": "#E45756", "strokeWidth": 2.5}, "encoding": {"x": {"axis": {"labelAngle": 0, "tickCount": 12}, "field": "week", "title": "Week", "type": "temporal"}, "y": {"field": "rolling_3w", "type": "quantitative"}}}], "data": {"name": "data-60c47eb7355d2abfd1ccfddcde6fb25c"}, "height": 300, "title": "Weekly Ticket Volume (raw + 3-week rolling average)", "width": 620, "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-60c47eb7355d2abfd1ccfddcde6fb25c": [{"week": "2025-01-06T00:00:00", "ticket_count": 6047, "median_MTTR": 1.0325000000000002, "rolling_3w": null}, {"week": "2025-01-13T00:00:00", "ticket_count": 5597, "median_MTTR": 1.6902777777777778, "rolling_3w": 5652.333333333333}, {"week": "2025-01-20T00:00:00", "ticket_count": 5313, "median_MTTR": 1.7916666666666667, "rolling_3w": 5439.666666666667}, {"week": "2025-01-27T00:00:00", "ticket_count": 5409, "median_MTTR": 1.6541666666666666, "rolling_3w": 5377.333333333333}, {"week": "2025-02-03T00:00:00", "ticket_count": 5410, "median_MTTR": 1.9133333333333333, "rolling_3w": 5339.666666666667}, {"week": "2025-02-10T00:00:00", "ticket_count": 5200, "median_MTTR": 2.3241666666666667, "rolling_3w": 5325.666666666667}, {"week": "2025-02-17T00:00:00", "ticket_count": 5367, "median_MTTR": 2.109166666666667, "rolling_3w": 5334.666666666667}, {"week": "2025-02-24T00:00:00", "ticket_count": 5437, "median_MTTR": 2.2529166666666667, "rolling_3w": 5555.0}, {"week": "2025-03-03T00:00:00", "ticket_count": 5861, "median_MTTR": 3.646805555555556, "rolling_3w": 5525.666666666667}, {"week": "2025-03-10T00:00:00", "ticket_count": 5279, "median_MTTR": 2.423888888888889, "rolling_3w": 5364.333333333333}, {"week": "2025-03-17T00:00:00", "ticket_count": 4953, "median_MTTR": 1.9148611111111111, "rolling_3w": 4899.666666666667}, {"week": "2025-03-24T00:00:00", "ticket_count": 4467, "median_MTTR": 2.016111111111111, "rolling_3w": 4821.333333333333}, {"week": "2025-03-31T00:00:00", "ticket_count": 5044, "median_MTTR": 2.2447222222222223, "rolling_3w": 4946.333333333333}, {"week": "2025-04-07T00:00:00", "ticket_count": 5328, "median_MTTR": 2.1558333333333333, "rolling_3w": 5312.333333333333}, {"week": "2025-04-14T00:00:00", "ticket_count": 5565, "median_MTTR": 1.3154166666666667, "rolling_3w": 5705.666666666667}, {"week": "2025-04-21T00:00:00", "ticket_count": 6224, "median_MTTR": 17.465138888888887, "rolling_3w": 5786.666666666667}, {"week": "2025-04-28T00:00:00", "ticket_count": 5571, "median_MTTR": 2.0458333333333334, "rolling_3w": 5734.333333333333}, {"week": "2025-05-05T00:00:00", "ticket_count": 5408, "median_MTTR": 1.88, "rolling_3w": 5693.333333333333}, {"week": "2025-05-12T00:00:00", "ticket_count": 6101, "median_MTTR": 2.321111111111111, "rolling_3w": 5679.0}, {"week": "2025-05-19T00:00:00", "ticket_count": 5528, "median_MTTR": 0.8511111111111112, "rolling_3w": 5384.666666666667}, {"week": "2025-05-26T00:00:00", "ticket_count": 4525, "median_MTTR": 0.8369444444444445, "rolling_3w": 5382.0}, {"week": "2025-06-02T00:00:00", "ticket_count": 6093, "median_MTTR": 1.2469444444444444, "rolling_3w": 5362.333333333333}, {"week": "2025-06-09T00:00:00", "ticket_count": 5469, "median_MTTR": 1.4327777777777777, "rolling_3w": 5575.333333333333}, {"week": "2025-06-16T00:00:00", "ticket_count": 5164, "median_MTTR": 0.9638888888888888, "rolling_3w": 5421.333333333333}, {"week": "2025-06-23T00:00:00", "ticket_count": 5631, "median_MTTR": 1.3983333333333334, "rolling_3w": 5113.666666666667}, {"week": "2025-06-30T00:00:00", "ticket_count": 4546, "median_MTTR": 1.373888888888889, "rolling_3w": 5138.0}, {"week": "2025-07-07T00:00:00", "ticket_count": 5237, "median_MTTR": 1.1608333333333334, "rolling_3w": 5043.0}, {"week": "2025-07-14T00:00:00", "ticket_count": 5346, "median_MTTR": 1.5958333333333334, "rolling_3w": 5245.0}, {"week": "2025-07-21T00:00:00", "ticket_count": 5152, "median_MTTR": 1.2269444444444444, "rolling_3w": 5456.333333333333}, {"week": "2025-07-28T00:00:00", "ticket_count": 5871, "median_MTTR": 2.013333333333333, "rolling_3w": 5876.666666666667}, {"week": "2025-08-04T00:00:00", "ticket_count": 6607, "median_MTTR": 3.841111111111111, "rolling_3w": 5885.0}, {"week": "2025-08-11T00:00:00", "ticket_count": 5177, "median_MTTR": 1.3858333333333333, "rolling_3w": 5595.666666666667}, {"week": "2025-08-18T00:00:00", "ticket_count": 5003, "median_MTTR": 1.0780555555555555, "rolling_3w": 5160.333333333333}, {"week": "2025-08-25T00:00:00", "ticket_count": 5301, "median_MTTR": 0.8552777777777778, "rolling_3w": 5033.333333333333}, {"week": "2025-09-01T00:00:00", "ticket_count": 4796, "median_MTTR": 1.0575, "rolling_3w": 5218.666666666667}, {"week": "2025-09-08T00:00:00", "ticket_count": 5559, "median_MTTR": 1.708611111111111, "rolling_3w": 5261.666666666667}, {"week": "2025-09-15T00:00:00", "ticket_count": 5430, "median_MTTR": 2.3869444444444445, "rolling_3w": 5535.0}, {"week": "2025-09-22T00:00:00", "ticket_count": 5616, "median_MTTR": 1.4738888888888888, "rolling_3w": 5477.333333333333}, {"week": "2025-09-29T00:00:00", "ticket_count": 5386, "median_MTTR": 1.2756944444444445, "rolling_3w": 5311.0}, {"week": "2025-10-06T00:00:00", "ticket_count": 4931, "median_MTTR": 1.6422222222222222, "rolling_3w": 5278.0}, {"week": "2025-10-13T00:00:00", "ticket_count": 5517, "median_MTTR": 1.4336111111111112, "rolling_3w": 5325.333333333333}, {"week": "2025-10-20T00:00:00", "ticket_count": 5528, "median_MTTR": 1.3770833333333332, "rolling_3w": 5355.666666666667}, {"week": "2025-10-27T00:00:00", "ticket_count": 5022, "median_MTTR": 1.5883333333333334, "rolling_3w": 5256.333333333333}, {"week": "2025-11-03T00:00:00", "ticket_count": 5219, "median_MTTR": 1.6211111111111112, "rolling_3w": 5213.0}, {"week": "2025-11-10T00:00:00", "ticket_count": 5398, "median_MTTR": 1.4813888888888889, "rolling_3w": 5398.0}, {"week": "2025-11-17T00:00:00", "ticket_count": 5577, "median_MTTR": 2.1366666666666667, "rolling_3w": 4631.333333333333}, {"week": "2025-11-24T00:00:00", "ticket_count": 2919, "median_MTTR": 1.0330555555555556, "rolling_3w": 4672.0}, {"week": "2025-12-01T00:00:00", "ticket_count": 5520, "median_MTTR": 1.4570833333333333, "rolling_3w": 4965.333333333333}, {"week": "2025-12-08T00:00:00", "ticket_count": 6457, "median_MTTR": 0.6033333333333333, "rolling_3w": 5634.0}, {"week": "2025-12-15T00:00:00", "ticket_count": 4925, "median_MTTR": 1.4243055555555557, "rolling_3w": 4636.666666666667}, {"week": "2025-12-22T00:00:00", "ticket_count": 2528, "median_MTTR": 0.8802777777777778, "rolling_3w": null}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

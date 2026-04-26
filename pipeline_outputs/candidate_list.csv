@@ -1,0 +1,47 @@
+candidate_id,candidate_type,Service,start_week,end_week,spike_arm,spike_weeks,peak_ratio,total_tickets,dup_share,severity,Subcategory,volume,median_MTTR,impact_score
+ep_Coreimage_Engineering_Services_20250421,both,Coreimage Engineering Services,2025-04-21,2025-04-28,volume+mttr,1.0,22.77,1349.0,0.047,32.500689832443484,,,,
+ep_Cornerstone_Performance_Management_20250505,episodic,Cornerstone Performance Management,2025-05-05,2025-06-30,volume,5.0,4.47,982.0,0.105,33.285234628628,,,,
+ep_Cornerstone_Performance_Management_20250728,episodic,Cornerstone Performance Management,2025-07-28,2025-08-04,mttr,1.0,4.11,56.0,0.071,8.244341068775638,,,,
+ep_Cybersecurity_Operations_20250818,episodic,Cybersecurity Operations,2025-08-18,2025-09-15,volume,4.0,3.39,631.0,0.111,22.716667838897592,,,,
+ep_Cybersecurity_Operations_20251103,episodic,Cybersecurity Operations,2025-11-03,2025-11-10,mttr,1.0,2.3,214.0,0.187,6.453540510683601,,,,
+ep_Cybersecurity_Operations_20251117,episodic,Cybersecurity Operations,2025-11-17,2025-11-24,volume,1.0,1.9,263.0,0.08,5.163325627412582,,,,
+ep_Database_Services_20250303,both,Database Services,2025-03-03,2025-03-10,volume,1.0,2.41,210.0,0.676,6.791685366507184,,,,
+ep_Database_Services_20250929,both,Database Services,2025-09-29,2025-10-20,volume,2.0,1.89,305.0,0.744,7.433759524261321,,,,
+ep_Database_Services_20251110,both,Database Services,2025-11-10,2025-11-24,volume,2.0,2.09,267.0,0.772,8.40895782980767,,,,
+ep_Device_Support_Services_20250908,both,Device Support Services,2025-09-08,2025-09-15,mttr,1.0,2.48,1912.0,0.17,9.901490736873368,,,,
+ep_Identity_Lifecycle_Management_20250217,episodic,Identity Lifecycle Management,2025-02-17,2025-02-24,mttr,1.0,3.65,313.0,0.604,10.739270828482198,,,,
+ep_Identity_Lifecycle_Management_20250728,episodic,Identity Lifecycle Management,2025-07-28,2025-08-11,volume,2.0,6.33,2490.0,0.917,29.44338484818865,,,,
+ep_Identity_Lifecycle_Management_20250915,episodic,Identity Lifecycle Management,2025-09-15,2025-09-22,mttr,1.0,2.87,560.0,0.795,9.627826647722728,,,,
+ep_Learning_Delivery_Services_20251208,episodic,Learning Delivery Services,2025-12-08,2025-12-15,volume,1.0,3.36,93.0,0.344,7.943774796908611,,,,
+ep_Linux_Hosting_Services_20250203,episodic,Linux Hosting Services,2025-02-03,2025-02-10,mttr,1.0,2.81,69.0,0.725,6.332680107141579,,,,
+ep_Linux_Hosting_Services_20250310,episodic,Linux Hosting Services,2025-03-10,2025-03-17,volume,1.0,2.75,97.0,0.588,6.691446508795561,,,,
+ep_Linux_Hosting_Services_20250825,episodic,Linux Hosting Services,2025-08-25,2025-09-01,mttr,1.0,3.36,38.0,0.447,6.4055955129781355,,,,
+ep_Michart_Pharmacy_(Willow)_20250512,both,Michart Pharmacy (Willow),2025-05-12,2025-05-19,volume,1.0,2.45,95.0,0.274,5.900706039050744,,,,
+ep_Michart_Pharmacy_(Willow_Ambulatory)_20250512,episodic,Michart Pharmacy (Willow Ambulatory),2025-05-12,2025-06-09,volume,4.0,253.33,595.0,0.642,102.05053470554178,,,,
+ep_Michart_Security_Services_20250505,episodic,Michart Security Services,2025-05-05,2025-05-12,volume,1.0,1.95,282.0,0.376,5.439242004153556,,,,
+ep_Networking_Support_Services_20250818,episodic,Networking Support Services,2025-08-18,2025-09-08,mttr,2.0,2.23,127.0,0.197,7.9394106345348625,,,,
+ep_Operating_&_Procedure_Rooms_20251110,episodic,Operating & Procedure Rooms,2025-11-10,2025-11-17,mttr,1.0,2.79,68.0,0.324,6.267600181819258,,,,
+ep_Outlook_For_The_Web_(Owa)_20250303,episodic,Outlook For The Web (Owa),2025-03-03,2025-03-10,volume,1.0,17.38,359.0,0.039,24.246959000652335,,,,
+ep_Outlook_For_The_Web_(Owa)_20251201,episodic,Outlook For The Web (Owa),2025-12-01,2025-12-08,mttr,1.0,6.13,35.0,0.057,9.374080870240727,,,,
+ep_Reporting_20250623,both,Reporting,2025-06-23,2025-06-30,volume,1.0,3.38,103.0,0.757,8.160302775659073,,,,
+ep_Service_Management_20250512,episodic,Service Management,2025-05-12,2025-05-26,mttr,2.0,2.46,89.0,0.292,8.264261356716279,,,,
+ep_Storage_Services_20250602,episodic,Storage Services,2025-06-02,2025-06-09,mttr,1.0,3.46,53.0,0.113,7.143361090064913,,,,
+ep_Storage_Services_20251124,episodic,Storage Services,2025-11-24,2025-12-01,mttr,1.0,3.7,56.0,0.589,7.631361438941528,,,,
+ep_Voice_Communication_Services_20251110,episodic,Voice Communication Services,2025-11-10,2025-11-17,mttr,1.0,2.93,149.0,0.168,7.77099760792022,,,,
+st_Coreimage_Engineering_Services_Other,both,Coreimage Engineering Services,,,,,,,,,Other,1425.0,621.3052777777777,885360.0208333333
+st_Release_Of_Information_Other,persistent,Release Of Information,,,,,,,,,Other,2188.0,142.58388888888888,311973.54888888885
+st_Ambulatory_Care_Move/Change/Add,persistent,Ambulatory Care,,,,,,,,,Move/Change/Add,1719.0,161.7325,278018.1675
+st_Device_Support_Services_Other,both,Device Support Services,,,,,,,,,Other,7478.0,23.90416666666667,178755.35833333334
+st_Continuing_Medical_Education_Inquiry_/_Help,persistent,Continuing Medical Education,,,,,,,,,Inquiry / Help,1861.0,77.74,144674.13999999998
+st_Device_Support_Services_Move/Change/Add,both,Device Support Services,,,,,,,,,Move/Change/Add,7701.0,16.30388888888889,125556.24833333334
+st_Pharmacy_Management_Services_Move/Change/Add,persistent,Pharmacy Management Services,,,,,,,,,Move/Change/Add,500.0,241.5598611111111,120779.93055555555
+st_Device_Support_Services_System_Degraded,both,Device Support Services,,,,,,,,,System Degraded,15214.0,7.619861111111112,115928.56694444445
+st_Reporting_Inquiry_/_Help,both,Reporting,,,,,,,,,Inquiry / Help,336.0,291.3216666666667,97884.08000000002
+st_Database_Services_Move/Change/Add,both,Database Services,,,,,,,,,Move/Change/Add,850.0,112.80847222222222,95887.20138888889
+st_Hospital_Billing_Services_Move/Change/Add,persistent,Hospital Billing Services,,,,,,,,,Move/Change/Add,286.0,312.1093055555556,89263.2613888889
+st_Cloud_Kubernetes_Container_Hosting_Move/Change/Add,persistent,Cloud Kubernetes Container Hosting,,,,,,,,,Move/Change/Add,294.0,284.1783333333333,83548.43
+st_Ambulatory_Care_Enhancement,persistent,Ambulatory Care,,,,,,,,,Enhancement,231.0,359.39166666666665,83019.47499999999
+st_Michart_Pharmacy_(Willow)_Move/Change/Add,both,Michart Pharmacy (Willow),,,,,,,,,Move/Change/Add,390.0,190.1036111111111,74140.40833333333
+st_Reporting_Move/Change/Add,both,Reporting,,,,,,,,,Move/Change/Add,381.0,193.2475,73627.2975
+st_Academic_It_Classroom_Technologies_Move/Change/Add,persistent,Academic It Classroom Technologies,,,,,,,,,Move/Change/Add,230.0,313.3572222222222,72072.16111111111
+st_Clinical_Documentation_(Clindoc)_Move/Change/Add,persistent,Clinical Documentation (Clindoc),,,,,,,,,Move/Change/Add,240.0,282.79875,67871.7
